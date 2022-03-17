@@ -29,10 +29,21 @@ public class Mitarbeiter_Test {
     servet.setAbteilung("FB 17");
     servet.setPersonalNummer(4258);
 
+    Mitarbeiter aylin = new Mitarbeiter();
+    aylin.setVorname("Aylin");
+    aylin.setNachname("Toy");
+    aylin.setAlter("26");
+    aylin.setAdresseStrasse("Am Sportplatz 4");
+    aylin.setPlz(65614);
+    aylin.setAdresseWohnort("Beselich");
+    aylin.setAbteilung("FB 11");
+    aylin.setPersonalNummer(6339);
+
     mitarbeiter = new ArrayList<>();
 
     erweitern(ahmet);
     erweitern(servet);
     erweitern(aykut);
+    erweitern(aylin);
   }
 }
