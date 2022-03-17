@@ -32,7 +32,7 @@ public class Mitarbeiter_Test {
     Mitarbeiter aylin = new Mitarbeiter();
     aylin.setVorname("Aylin");
     aylin.setNachname("Toy");
-    aylin.setAlter("26");
+    aylin.setAlter(26);
     aylin.setAdresseStrasse("Am Sportplatz 4");
     aylin.setPlz(65614);
     aylin.setAdresseWohnort("Beselich");
