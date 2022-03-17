@@ -14,10 +14,10 @@ public class Csv_excel_importer {
     try{
       reader = new BufferedReader(new FileReader(file));
       while((line = reader.readLine())!= null){ //.readline liest eine Zeile bis zum nächsten Zeilenumbruch
+                                                // solange eine Zeile nicht leer ist,...
+        String[] row = line.split(";"); // Trennung der Spalten durch Semikolon
 
-        String[] row = line.split(";"); // Trennung der Spalten durch Kommata
-
-        for(String index : row){
+        for(String index : row){ // für jedes String im Array row, in der die Spalten durch ; getrennt sind
           System.out.printf("%-10s",index);
         }
         System.out.println();
