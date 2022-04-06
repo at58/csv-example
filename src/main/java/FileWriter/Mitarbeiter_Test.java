@@ -27,7 +27,7 @@ public class Mitarbeiter_Test {
     servet.setPlz(35576);
     servet.setAdresseWohnort("Wetzlar");
     servet.setAbteilung("FB 17");
-    servet.setPersonalNummer(4258);
+    servet.setPersonalNummer(4257);
 
     Mitarbeiter aylin = new Mitarbeiter();
     aylin.setVorname("Aylin");
